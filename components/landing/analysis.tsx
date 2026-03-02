@@ -2,10 +2,10 @@ import { Eye, ListChecks, FileText, Lightbulb } from "lucide-react"
 
 export function Analysis() {
   const bullets = [
-    { icon: Eye, text: "Image evaluation" },
-    { icon: ListChecks, text: "Structure check" },
-    { icon: FileText, text: "Text analysis" },
-    { icon: Lightbulb, text: "Improvement suggestions" },
+    { icon: Eye, text: "Оценка изображений" },
+    { icon: ListChecks, text: "Проверка структуры" },
+    { icon: FileText, text: "Анализ текстов" },
+    { icon: Lightbulb, text: "Рекомендации по улучшению" },
   ]
 
   return (
@@ -22,14 +22,14 @@ export function Analysis() {
               </div>
               <div className="flex flex-col gap-3">
                 <div className="flex items-center justify-between rounded-lg bg-muted p-3">
-                  <span className="text-xs font-medium text-foreground">Overall Score</span>
+                  <span className="text-xs font-medium text-foreground">Общая оценка</span>
                   <span className="text-sm font-bold text-primary">87/100</span>
                 </div>
                 <div className="flex flex-col gap-2">
                   {[
-                    { label: "Images", score: 92 },
-                    { label: "Structure", score: 85 },
-                    { label: "Text", score: 78 },
+                    { label: "Фото", score: 92 },
+                    { label: "Структура", score: 85 },
+                    { label: "Текст", score: 78 },
                     { label: "SEO", score: 91 },
                   ].map((metric) => (
                     <div key={metric.label} className="flex items-center gap-3 rounded-lg bg-muted px-3 py-2">
@@ -49,10 +49,10 @@ export function Analysis() {
           </div>
           <div className="order-1 md:order-2">
             <h2 className="mb-4 font-serif text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-              Detailed card analysis
+              Детальный анализ карточки
             </h2>
             <p className="mb-8 text-base leading-relaxed text-muted-foreground">
-              The system evaluates visuals, structure and texts according to marketplace requirements and provides clear recommendations.
+              Система оценивает визуал, структуру и тексты по требованиям маркетплейсов и даёт понятные рекомендации.
             </p>
             <ul className="flex flex-col gap-4">
               {bullets.map((bullet) => (

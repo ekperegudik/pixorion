@@ -2,10 +2,10 @@ import { Image, LayoutGrid, Sparkles, Scaling } from "lucide-react"
 
 export function Features() {
   const bullets = [
-    { icon: Image, text: "Photorealistic packshots" },
-    { icon: Sparkles, text: "Lifestyle scenes" },
-    { icon: LayoutGrid, text: "Marketplace-ready infographics" },
-    { icon: Scaling, text: "Format adaptation" },
+    { icon: Image, text: "Фотореалистичные пакшоты" },
+    { icon: Sparkles, text: "Лайфстайл-сцены" },
+    { icon: LayoutGrid, text: "Инфографика для маркетплейсов" },
+    { icon: Scaling, text: "Адаптация форматов" },
   ]
 
   return (
@@ -14,10 +14,10 @@ export function Features() {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
             <h2 className="mb-4 font-serif text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-              Image generation
+              Генерация изображений
             </h2>
             <p className="mb-8 text-base leading-relaxed text-muted-foreground">
-              Generate packshots, lifestyle scenes and infographics while keeping brand consistency and marketplace compliance.
+              Генерируйте пакшоты, лайфстайл-сцены и инфографику, сохраняя единый стиль бренда и соответствие требованиям маркетплейсов.
             </p>
             <ul className="flex flex-col gap-4">
               {bullets.map((bullet) => (

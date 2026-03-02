@@ -28,20 +28,20 @@ export function Footer() {
         </div>
         <nav className="flex items-center gap-6">
           <Link href="#about" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
-            About
+            О продукте
           </Link>
           <Link href="#features" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
-            Features
+            Возможности
           </Link>
           <Link href="#analysis" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
-            Analysis
+            Анализ
           </Link>
           <Link href="#report" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
-            Report
+            Отчёт
           </Link>
         </nav>
         <p className="text-xs text-muted-foreground">
-          {'© 2026 Pixorion.ai. All rights reserved.'}
+          {'© 2026 Pixorion.ai. Все права защищены.'}
         </p>
       </div>
     </footer>

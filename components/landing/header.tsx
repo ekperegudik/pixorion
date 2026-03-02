@@ -28,23 +28,23 @@ export function Header() {
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link href="#about" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-            About
+            О продукте
           </Link>
           <Link href="#features" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-            Features
+            Возможности
           </Link>
           <Link href="#analysis" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-            Analysis
+            Анализ
           </Link>
           <Link href="#report" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-            Report
+            Отчёт
           </Link>
         </nav>
         <Link
           href="#cta"
           className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         >
-          Try for free
+          Попробовать бесплатно
         </Link>
       </div>
     </header>

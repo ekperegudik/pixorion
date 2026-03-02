@@ -2,19 +2,19 @@ import { X, Check } from "lucide-react"
 
 export function Comparison() {
   const otherSolutions = [
-    "Scattered tools",
-    "Complex workflow",
-    "High production cost",
-    "Manual quality control",
-    "No unified evaluation system",
+    "Разрозненные инструменты",
+    "Сложный рабочий процесс",
+    "Высокие затраты на производство",
+    "Ручной контроль качества",
+    "Нет единой системы оценки",
   ]
 
   const pixorionFeatures = [
-    "All tools in one window",
-    "Structured workflow",
-    "Lower content costs",
-    "Automated card analysis",
-    "Structured evaluation report",
+    "Все инструменты в одном окне",
+    "Структурированный рабочий процесс",
+    "Снижение затрат на контент",
+    "Автоматический анализ карточек",
+    "Структурированный отчёт с оценкой",
   ]
 
   return (
@@ -22,12 +22,12 @@ export function Comparison() {
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <h2 className="mb-4 font-serif text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            How we compare
+            Сравнение
           </h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2">
           <div className="rounded-xl border border-border bg-card p-6 md:p-8">
-            <h3 className="mb-6 text-lg font-semibold text-muted-foreground">Other solutions</h3>
+            <h3 className="mb-6 text-lg font-semibold text-muted-foreground">Другие решения</h3>
             <ul className="flex flex-col gap-4">
               {otherSolutions.map((item) => (
                 <li key={item} className="flex items-start gap-3">
