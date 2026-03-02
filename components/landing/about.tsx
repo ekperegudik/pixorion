@@ -4,18 +4,18 @@ export function About() {
   const points = [
     {
       icon: Layers,
-      title: "Unified workspace",
-      description: "All essential tools for marketplace content in one system.",
+      title: "Единое рабочее пространство",
+      description: "Все необходимые инструменты для контента маркетплейсов в одной системе.",
     },
     {
       icon: TrendingDown,
-      title: "Lower costs",
-      description: "Reduce production expenses by eliminating scattered tools.",
+      title: "Снижение затрат",
+      description: "Сокращайте расходы на производство, убирая разрозненные инструменты.",
     },
     {
       icon: Zap,
-      title: "Faster launches",
-      description: "Speed up product launches with a structured workflow.",
+      title: "Быстрый запуск",
+      description: "Ускоряйте запуск товаров благодаря структурированному рабочему процессу.",
     },
   ]
 
@@ -24,10 +24,10 @@ export function About() {
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <h2 className="mb-4 font-serif text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Why Pixorion.ai
+            Почему Pixorion.ai
           </h2>
           <p className="text-base leading-relaxed text-muted-foreground">
-            We bring together essential tools for working with marketplace product cards into one system. This reduces production costs and speeds up product launches.
+            Мы собрали все необходимые инструменты для работы с карточками товаров маркетплейсов в одной системе. Это снижает затраты на производство и ускоряет запуск товаров.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-3">

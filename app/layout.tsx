@@ -3,13 +3,13 @@ import { Inter, Montserrat } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const _montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' })
+const _inter = Inter({ subsets: ['latin', 'cyrillic'], variable: '--font-inter' })
+const _montserrat = Montserrat({ subsets: ['latin', 'cyrillic'], variable: '--font-montserrat' })
 
 export const metadata: Metadata = {
-  title: 'Pixorion.ai - Create marketplace content in one window',
+  title: 'Pixorion.ai - Создавайте контент для маркетплейсов в одном окне',
   description:
-    'Pixorion.ai combines image generation, product card analysis and content optimization tools in a single workspace for marketplace sellers.',
+    'Pixorion.ai объединяет генерацию изображений, анализ карточек товаров и инструменты оптимизации контента в едином рабочем пространстве для продавцов маркетплейсов.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -40,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body className={`${_inter.variable} ${_montserrat.variable} font-sans antialiased`}>
         {children}
         <Analytics />

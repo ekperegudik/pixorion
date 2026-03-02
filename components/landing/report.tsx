@@ -7,10 +7,10 @@ export function Report() {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
             <h2 className="mb-4 font-serif text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-              Exportable PDF report
+              Экспорт PDF-отчёта
             </h2>
             <p className="mb-8 text-base leading-relaxed text-muted-foreground">
-              Generate a structured PDF report that can be shared with designers, marketers or clients without additional formatting.
+              Сформируйте структурированный PDF-отчёт, который можно отправить дизайнерам, маркетологам или клиентам без дополнительного форматирования.
             </p>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30">
@@ -18,8 +18,8 @@ export function Report() {
                   <FileDown className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-foreground">Download as PDF</p>
-                  <p className="text-xs text-muted-foreground">Export the full report in one click</p>
+                  <p className="text-sm font-medium text-foreground">Скачать в PDF</p>
+                  <p className="text-xs text-muted-foreground">Экспорт полного отчёта в один клик</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30">
@@ -27,8 +27,8 @@ export function Report() {
                   <Share2 className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-foreground">Share with team</p>
-                  <p className="text-xs text-muted-foreground">Send directly to collaborators</p>
+                  <p className="text-sm font-medium text-foreground">Поделиться с командой</p>
+                  <p className="text-xs text-muted-foreground">Отправьте напрямую коллегам</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30">
@@ -36,8 +36,8 @@ export function Report() {
                   <Printer className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-foreground">Print-ready</p>
-                  <p className="text-xs text-muted-foreground">Clean formatting for print</p>
+                  <p className="text-sm font-medium text-foreground">Готов к печати</p>
+                  <p className="text-xs text-muted-foreground">Чистое форматирование для печати</p>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ export function Report() {
           <div className="flex items-center justify-center">
             <div className="w-full rounded-xl border border-border bg-card p-6">
               <div className="mb-4 flex items-center justify-between">
-                <span className="text-xs font-medium text-muted-foreground">Report Preview</span>
+                <span className="text-xs font-medium text-muted-foreground">Предпросмотр отчёта</span>
                 <span className="rounded-md bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">PDF</span>
               </div>
               <div className="flex flex-col gap-3 rounded-lg bg-muted p-4">
