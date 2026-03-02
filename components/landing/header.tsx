@@ -39,6 +39,9 @@ export function Header() {
           <Link href="#report" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
             Отчёт
           </Link>
+          <Link href="#pricing" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+            Тарифы
+          </Link>
         </nav>
         <Link
           href="#cta"

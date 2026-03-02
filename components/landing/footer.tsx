@@ -39,6 +39,9 @@ export function Footer() {
           <Link href="#report" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
             Отчёт
           </Link>
+          <Link href="#pricing" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
+            Тарифы
+          </Link>
         </nav>
         <p className="text-xs text-muted-foreground">
           {'© 2026 Pixorion.ai. Все права защищены.'}

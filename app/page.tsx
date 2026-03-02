@@ -5,6 +5,7 @@ import { Comparison } from "@/components/landing/comparison"
 import { Features } from "@/components/landing/features"
 import { Analysis } from "@/components/landing/analysis"
 import { Report } from "@/components/landing/report"
+import { Pricing } from "@/components/landing/pricing"
 import { CTA } from "@/components/landing/cta"
 import { Footer } from "@/components/landing/footer"
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Features />
         <Analysis />
         <Report />
+        <Pricing />
         <CTA />
       </main>
       <Footer />
